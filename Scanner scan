@@ -1,0 +1,26 @@
+  import java.util.Scanner;
+ public class NameReader {
+
+     public static void main(String[] args) {
+
+         Scanner scan = new Scanner(System.in);
+
+         System.out.println("Please Enter your name: ");
+         String name = scan.nextLine();
+         System.out.println("Hello " + name);
+
+     }
+
+ }
+//
+
+ import java.util.Scanner;
+ public class PizzaCalculatorInput {
+
+     public static void main(String[] args) {
+         int pizzaSlices, numPeople, slicesPerPerson, leftoverSlices;
+         Scanner scan = new Scanner(System.in);
+         pizzaSlices = scan.nextInt();
+         numPeople = scan.nextInt();
+
+
