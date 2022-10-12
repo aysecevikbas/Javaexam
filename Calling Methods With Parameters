@@ -1,0 +1,32 @@
+
+import java.awt.Color;   //import Color class
+
+public class TurtleTestMethods
+{
+  public static void main(String[] args)
+  {
+      World world = new World(300,300);
+      Turtle yertle = new Turtle(world);
+
+      yertle.setPenColor(Color.red);
+      yertle.setBodyColor(Color.yellow);
+      yertle.forward(100);
+      yertle.turnLeft();
+      yertle.setShellColor(Color.blue);
+      yertle.forward(75);
+      yertle.turnLeft();
+      yertle.forward(75);
+      yertle.setShellColor(Color.magenta);
+      yertle.turnLeft();
+      
+      yertle.forward(75);
+      yertle.turnLeft();
+      yertle.forward(75);
+      yertle.turnLeft();
+      yertle.forward(75);
+      yertle.turnRight();
+      yertle.turn(60);
+
+      world.show(true);
+  }
+}
