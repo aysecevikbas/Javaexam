@@ -1,0 +1,16 @@
+public class TurtleTestGetSet
+{
+  public static void main(String[] args)
+  {
+      World world = new World(300,300);
+      Turtle yertle = new Turtle(world);
+      System.out.println("Yertle's original width is: " + yertle.getWidth());
+      System.out.println("Yertle's original height is: " + yertle.getHeight());
+      yertle.setWidth(200);
+      yertle.setHeight(200);
+      System.out.println("Yertle's new width is: " + yertle.getWidth());
+      System.out.println("Yertle's new height is: " + yertle.getHeight());
+      yertle.turnRight();
+      world.show(true);
+  }
+}
