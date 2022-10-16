@@ -1,0 +1,28 @@
+/ This \n escape sequence is for a new line. 
+  
+public class Test { 
+    public static void main(String[] args) 
+    { 
+        System.out.println("Good Morning Ayse! \n How are you now?  "); 
+    } 
+} 
+
+
+
+// This \' escape sequence is for printing a single quotation mark on the text string 
+  
+public class ayse { 
+    public static void main(String[] args) 
+    { 
+        System.out.println("Good Morning \'Ayse!\' How are you now?  "); 
+    } 
+    
+    
+ // This \\ escape sequence is for printing a backslash on the text string 
+
+public class ayse { 
+	public static void main(String[] args) 
+	{ 
+		System.out.println("\\- this is a backslash. "); 
+	} 
+} 
