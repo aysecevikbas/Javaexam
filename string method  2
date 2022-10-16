@@ -1,0 +1,14 @@
+public class Test1
+{
+   public static void main(String[] args)
+   {
+     String start = "Happy Birthday";
+     String name = "Jose";
+     String lastName = "Hernandez";
+     String result = start + " " + name + " "+lastName;  
+     result += "!";
+     result += "!";
+     result += "!";
+     System.out.println(result);
+   }
+}
